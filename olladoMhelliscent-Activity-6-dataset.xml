@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE english-premier-league [
+<!ELEMENT english-premier-league (Field_Name)>
+<!ELEMENT Field_Name (Div, Date, HomeTeam, AwayTeam, FTHG, FTAG, FTR, HTHG, HTAG, Referee)>
+
+<!ELEMENT Div (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT HomeTeam (#PCDATA)>
+<!ELEMENT AwayTeam (#PCDATA)>
+<!ELEMENT FTHG (#PCDATA)>
+<!ELEMENT FTAG (#PCDATA)>
+<!ELEMENT FTR (#PCDATA)>
+<!ELEMENT HTHG (#PCDATA)>
+<!ELEMENT HTAG (#PCDATA)>
+<!ELEMENT Referee (#PCDATA)>
+
+<!ATTLIST Field_Name row CDATA #REQUIRED>
+
+]>
+
+<english-premier-league>
+
+	<Field_Name id = "row 1">
+		<Div>E0</Div>
+		<Date>10/08/2018</Date>
+		<HomeTeam>Man United</HomeTeam>
+		<AwayTeam>Leicester</AwayTeam>
+		<FTHG>2</FTHG>
+		<FTAG>1</FTAG>
+		<FTR>H</FTR>
+		<HTHG>1</HTHG>
+		<HTAG>0</HTAG>
+		<Referee>A Marriner</Referee>
+
+	</Field_Name>
+
+	<Field_Name id = "row 2">
+		<Div>E0</Div>
+		<Date>11/08/2018</Date>
+		<HomeTeam>Bournemouth</HomeTeam>
+		<AwayTeam>Cardiff</AwayTeam>
+		<FTHG>2</FTHG>
+		<FTAG>1</FTAG>
+		<FTR>H</FTR>
+		<HTHG>1</HTHG>
+		<HTAG>0</HTAG>
+		<Referee>K Friend</Referee>
+
+	</Field_Name>
+
+	<Field_Name id = "row 3">
+		<Div>E0</Div>
+		<Date>11/08/2018</Date>
+		<HomeTeam>Fullham</HomeTeam>
+		<AwayTeam>Crystal Palace</AwayTeam>
+		<FTHG>0</FTHG>
+		<FTAG>2</FTAG>
+		<FTR>A</FTR>
+		<HTHG>1</HTHG>
+		<HTAG>1</HTAG>
+		<Referee>M Dean</Referee>
+
+	</Field_Name>
+
+	<Field_Name id = "row 4">
+		<Div>E0</Div>
+		<Date>11/08/2018</Date>
+		<HomeTeam>Huddersfield</HomeTeam>
+		<AwayTeam>Chelsea</AwayTeam>
+		<FTHG>0</FTHG>
+		<FTAG>3</FTAG>
+		<FTR>A</FTR>
+		<HTHG>0</HTHG>
+		<HTAG>2</HTAG>
+		<Referee>C Kavanagh</Referee>
+
+	</Field_Name>
+
+	<Field_Name id = "row 5">
+		<Div>E0</Div>
+		<Date>11/08/2018</Date>
+		<HomeTeam>Newscastle</HomeTeam>
+		<AwayTeam>Tottenham</AwayTeam>
+		<FTHG>1</FTHG>
+		<FTAG>2</FTAG>
+		<FTR>A</FTR>
+		<HTHG>1</HTHG>
+		<HTAG>2</HTAG>
+		<Referee>M Atkinson</Referee>
+
+	</Field_Name>
+
+	<Field_Name id = "row 6">
+		<Div>E0</Div>
+		<Date>11/08/2018</Date>
+		<HomeTeam>Wolves</HomeTeam>
+		<AwayTeam>Everton</AwayTeam>
+		<FTHG>2</FTHG>
+		<FTAG>2</FTAG>
+		<FTR>D</FTR>
+		<HTHG>1</HTHG>
+		<HTAG>1</HTAG>
+		<Referee>C Pawson</Referee>
+
+	</Field_Name>
+
+	<Field_Name id = "row 7">
+		<Div>E0</Div>
+		<Date>12/08/2018</Date>
+		<HomeTeam>Arsenal</HomeTeam>
+		<AwayTeam>Man City</AwayTeam>
+		<FTHG>0</FTHG>
+		<FTAG>2</FTAG>
+		<FTR>A</FTR>
+		<HTHG>0</HTHG>
+		<HTAG>1</HTAG>
+		<Referee>M Oliver</Referee>
+
+	</Field_Name>
+
+	<Field_Name id = "row 8">
+		<Div>E0</Div>
+		<Date>12/08/2018</Date>
+		<HomeTeam>Liverpool</HomeTeam>
+		<AwayTeam>West Ham</AwayTeam>
+		<FTHG>0</FTHG>
+		<FTAG>2</FTAG>
+		<FTR>A</FTR>
+		<HTHG>0</HTHG>
+		<HTAG>1</HTAG>
+		<Referee>A Taylor</Referee>
+
+	</Field_Name>
+
+	<Field_Name id = "row 9">
+		<Div>E0</Div>
+		<Date>12/08/2018</Date>
+		<HomeTeam>Southampton</HomeTeam>
+		<AwayTeam>Burnley</AwayTeam>
+		<FTHG>0</FTHG>
+		<FTAG>0</FTAG>
+		<FTR>D</FTR>
+		<HTHG>0</HTHG>
+		<HTAG>0</HTAG>
+		<Referee>G Scott</Referee>
+
+	</Field_Name>
+
+	<Field_Name id = "row 10">
+		<Div>E0</Div>
+		<Date>18/08/2018</Date>
+		<HomeTeam>Cardiff</HomeTeam>
+		<AwayTeam>Newscastle</AwayTeam>
+		<FTHG>0</FTHG>
+		<FTAG>0</FTAG>
+		<FTR>D</FTR>
+		<HTHG>0</HTHG>
+		<HTAG>0</HTAG>
+		<Referee>C Pawson</Referee>
+
+	</Field_Name>
+
+</english-premier-league>
